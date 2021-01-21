@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+.main {
+  background-color:rgb(156, 194, 238, 0.5);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  color:rgb(20, 20, 85);
+  font-family: 'Roboto';
+  padding-top: 3rem;
+  
+}
+.font {
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: rgb(20, 20, 85);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.card {
+  width: 800px;
+  height: 300px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+ 
+}
+.text {
+  text-align: justify;
+  padding: 2em;
+  font-size: 1.5em;
+}
+
+div.row {
+  
+  margin-top:  40px;
+}
+
+.btn-1 {
+  margin-left: 16rem;
+}
+
+.author {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(56, 52, 46);
+
+  width: 200px;
+  height: auto;
+  font-size: 20px;
+  line-height: 20px;
+  font-style: italic;
+} 
+#link {
   color: white;
+  text-decoration: none;
+}
+#link:hover {
+  color: rgb(197, 178, 138);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

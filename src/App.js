@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Quote from './Quote'
 
 function App() {
+  
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='main'>
+    <section className='row h-100'>
+      <div className='col-sm-12 my-auto'>
+      <h2 className="d-flex  justify-content-center font" >Quotes!</h2>
+      <div className="underline mb-5"></div>
+      <div >
+        <Quote />
+      </div>
+        
+      </div>
+     
+    </section>
+  </main>
   );
 }
 
