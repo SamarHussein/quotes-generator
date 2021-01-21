@@ -1,5 +1,11 @@
 [quotes_generator_website](https://happy-agnesi-5d432d.netlify.app)
 
+
+# Descritpion: 
+The app fetches and displays a  quote when the page loads
+When the user clickes  on the right or the left arrows, the app gets the previous or the next quote respectively.
+When clicking on the author's name, it transfers to the wikipedia page of that author
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
